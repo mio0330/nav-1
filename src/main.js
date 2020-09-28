@@ -9,7 +9,7 @@ const hashMap = y || [
   },
   {
     logo:
-      "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3500378932,2505168882&fm=26&gp=0.jpg",
+      "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=88797792,1181454646&fm=15&gp=0.jpg",
     url: "http://www.taobao.com",
   },
 ];
