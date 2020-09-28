@@ -107,11 +107,12 @@ window.onbeforeunload = () => {
   const string = JSON.stringify(hashMap); //数组变字符串
   localStorage.setItem("y", string);
 };
+
 $(".go").on("click", () => {
   if ($(".choose").val() === "google") {
     $(".searchForm").attr("action", "https://www.google.com/search");
     $(".inputSearch").attr("name", "q");
-  } else {
+  } else if ($(".choose").val() === "baidu") {
     $(".searchForm").attr("action", "https://www.baidu.com/s");
     $(".inputSearch").attr("name", "wd");
   }

@@ -125,7 +125,7 @@ var hashMap = y || [{
   logo: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3500378932,2505168882&fm=26&gp=0.jpg",
   url: "http://www.bilibili.com"
 }, {
-  logo: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3500378932,2505168882&fm=26&gp=0.jpg",
+  logo: "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=88797792,1181454646&fm=15&gp=0.jpg",
   url: "http://www.taobao.com"
 }];
 
@@ -219,7 +219,10 @@ $(".go").on("click", function () {
   if ($(".choose").val() === "google") {
     $(".searchForm").attr("action", "https://www.google.com/search");
     $(".inputSearch").attr("name", "q");
+  } else if ($(".choose").val() === "baidu") {
+    $(".searchForm").attr("action", "https://www.baidu.com/s");
+    $(".inputSearch").attr("name", "wd");
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.f3cd7d35.js.map
+//# sourceMappingURL=main.72b1e77b.js.map
