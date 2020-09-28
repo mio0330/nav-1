@@ -219,6 +219,9 @@ $(".go").on("click", function () {
   if ($(".choose").val() === "google") {
     $(".searchForm").attr("action", "https://www.google.com/search");
     $(".inputSearch").attr("name", "q");
+  } else {
+    $(".searchForm").attr("action", "https://www.baidu.com/s");
+    $(".inputSearch").attr("name", "wd");
   }
 });
 },{}],"C:/Users/YIII/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
